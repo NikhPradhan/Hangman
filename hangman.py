@@ -39,7 +39,8 @@ def play(word):
         print("You successfully guessed the word ")
     else:
         print("you ran out of attepts")
-####For printing hangman at every guess
+
+#### Function for printing hangman at every guess
         
 def hangman(attempt):
     stages=[ """
@@ -108,7 +109,7 @@ def hangman(attempt):
         """]
     print(stages[attempt])
 
-####
+#######
 
 
 flag='Y'
