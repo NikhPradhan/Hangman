@@ -7,7 +7,7 @@ def play(word):
     print(word_length)
     print("your number of attempts",attempt)
     hangman(attempt)
-##Loop until attempt runs out or succefully guesses all the letters
+##Loop until attempt runs out or successfully guesses all the letters
     while attempt > 0:
         guess=input("Guess a letter:\n").lower()
         
